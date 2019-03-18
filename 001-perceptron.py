@@ -47,6 +47,7 @@ class Percepton:
 Rede Perceptron de uma camada
 usando o operador E
 '''
+
 entrada = np.array([[0,0],[0,1],[1,0],[1,1]])
 saida = np.array([0,0,0,1])
 pesos = np.array([0.0,0.0])
