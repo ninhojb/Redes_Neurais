@@ -1,4 +1,9 @@
+
 '''
+Rede Perceptron de uma camada
+usando o operador E
+
+
          Algoritmo usando a funçao stepFunction
 
 Enquanto o erro for diferente de zero
@@ -44,10 +49,6 @@ class Percepton:
                 print('Peso Atual: ' + str(self.pesos[j]))
             print('Total de erros: ' + str(erroTotal))
 
-'''
-Rede Perceptron de uma camada
-usando o operador E
-'''
 
 entrada = np.array([[0,0],[0,1],[1,0],[1,1]])
 saida = np.array([0,0,0,1])
