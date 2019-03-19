@@ -1,5 +1,6 @@
 '''
-         Algoritmo
+         Algoritmo usando a funçao stepFunction
+
 Enquanto o erro for diferente de zero
    Para cada registro
      Calcula a saída com os pesos atuais
@@ -20,7 +21,7 @@ class Percepton:
         self.taxa_aprendizagem = taxa_aprendizagem
 
     def step_Function(self,registro):
-        return 1 if registro >=1 else 0
+        return 1 if registro >= 1 else 0
 
     def calculaSaida(self,s):
         soma = s.dot(self.pesos)
@@ -57,12 +58,10 @@ teste = Percepton(entrada, saida,pesos)
 teste.treinar()
 '''
 após rede treinada, entra com os valores
+
 '''
 print('\nRede neural Treinada')
 print(teste.calculaSaida(entrada[0]))
 print(teste.calculaSaida(entrada[1]))
 print(teste.calculaSaida(entrada[2]))
 print(teste.calculaSaida(entrada[3]))
-
-
-
