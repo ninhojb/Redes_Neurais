@@ -1,7 +1,7 @@
 # Neural_Network
 
 
-#INSTALLATION
+#Packages
 
 cycler==0.10.0
 kiwisolver==1.0.1

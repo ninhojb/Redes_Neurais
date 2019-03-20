@@ -5,7 +5,7 @@ from pybrain.structure.modules import SoftmaxLayer
 from pybrain.structure.modules import SigmoidLayer
 
 # rede = buildNetwork(2,3, 1, outclass=SoftmaxLayer,hiddenclass= SigmoidLayer, bias=False)
-# print(rede['in'])is
+# print(rede['in'])
 # print(rede['hidden0'])
 # print(rede['out'])
 # print(rede['bias'])
